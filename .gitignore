@@ -1,0 +1,10 @@
+*.mat
+*.pdf
+*.sh.e*
+*.sh.o*
+setup_schematic.ai
+*~$*
+*.DS_Store
+/_data
+/_manuscript
+/_plots
