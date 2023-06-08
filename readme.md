@@ -1,7 +1,7 @@
 Related publication: Angeloni et al. (2023) Dynamics of cortical contrast adaptation predict perception of signals in noise.
 https://doi.org/10.1101/2021.08.11.455845
 
-This code was tested using MATLAB 2019a on Mac OSX. The script `run_analysis.m` generates all of the main figures and statistics used in the paper. To use this script, download the data from [DRYAD](**dryad link**), unzip into a folder called **_data** and place that folder in the same directory as `run_analysis.m`. 
+This code was tested using MATLAB 2019a on Mac OSX. The script `run_analysis.m` generates all of the main figures and statistics used in the paper. To use this script, download the data from [DRYAD](https://doi.org/10.5061/dryad.6djh9w120), unzip into a folder called **_data** and place that folder in the same directory as `run_analysis.m`. 
 
 For more detailed instructions go to the [analysis](#running-the-analysis) section.
 
@@ -69,7 +69,7 @@ The **_data** folder contains data from several experiments:
     git clone https://github.com/chris-angeloni/contrast_glm
     ```
 
-4) Download the data from [DRYAD](**dryad link**) and unzip the file. Place the `_data` folder in `./contrast_behavior` (ie. in the same directory as `run_analysis.m`).
+4) Download the data from [DRYAD](https://doi.org/10.5061/dryad.6djh9w120) and unzip the file. Place the `_data` folder in `./contrast_behavior` (ie. in the same directory as `run_analysis.m`).
 
 5) If you wish to plot the GLM results, make sure line 178 of `run_analysis.m` is: `cd ../contrast_glm/`.
 
