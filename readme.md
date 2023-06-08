@@ -86,7 +86,7 @@ For your convenience, we have provided precomputed results files used for the pa
 
 ## Notes
 
-Code for the GLM in Figure 2 can be found here: https://github.com/chris-angeloni/contrast_glm
+Code for the GLM in Figure 2 can be found here: https://github.com/geffenlab/contrast_glm
 
 Results for the LN model may vary by run (due to crossvalidation splits), however, we have found the effects to largely remain stable over multiple runs.
 
