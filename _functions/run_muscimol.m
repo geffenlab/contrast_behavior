@@ -1,12 +1,10 @@
 function stat = run_muscimol
 
-%addpath(genpath('~/gits/gain-gonogo/'));
-%addpath(genpath('~/chris-lab/code_general/'));
 addpath(genpath('./_functions/'));
 
 
 %% directory stuff
-dataDir = '~/gits/gain-gonogo/_data';
+dataDir = './_data/_behavior/_data';
 mouseList = {'CA123','CA124','CA125','CA126'};
 
 % note labels

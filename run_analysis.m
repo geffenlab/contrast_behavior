@@ -1,5 +1,4 @@
 clear all; close all;
-%addpath(genpath('~/chris-lab/code_general/'));
 addpath(genpath('./_functions/'));
 
 % paths
@@ -12,7 +11,9 @@ addpath(genpath(dataDir));
 cd(root);
 resPath = fullfile(root,'_data','_glm','_res');
 cd ../contrast_glm/ % replace with path to contrast_glm repo here
-run_gcglm; cd(root); clear ops res r;
+run_gcglm;
+cd(root);
+clear ops res r;
 
 
 %% behavioral analysis setup
@@ -40,7 +41,7 @@ ops.include = include;
 
 
 %% Figure 3: run and plot behavior
-% (requires behavior folder: ~/gits/gain-gonogo/')
+% (requires behavior folder: ./_data/behavior/')
 stats_beh = run_behavior;
 
 
@@ -56,7 +57,7 @@ saveFigPDF(fh,[600 200],'./_plots/_behavior_model_comp.pdf');
 
 
 %% Figure 4: run and plot muscimol results
-% (requires behavior folder: ~/gits/gain-gonogo/')
+% (requires behavior folder: ./_data/behavior/')
 % (this will take roughly 20 minutes first run, then ~5 min rerunning)
 stats_muscimol = run_muscimol;
 

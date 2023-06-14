@@ -6,8 +6,7 @@ function res = run_behavior
 %% SETUP
 %%%%%%%%
 % directories/mice to consider
-filePath = '~/gits/gain-gonogo/_data';
-addpath(genpath('~/gits/gain-gonogo/_analysis/'));
+filePath = './_data/_behavior/_data';
 addpath(genpath('./_functions/'));
 mouseList = {'CA046','CA047','CA048','CA049','CA051','CA052','CA055',...
              'CA061','CA070','CA072','CA073','CA074','CA075','CA102',...
